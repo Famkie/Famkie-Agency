@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  background-color: #121212;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e0e0e0;
+}
+
+.raffles-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.raffles-box {
+  background-color: #1f1f1f;
+  border: 1px solid #00bcd4aa;
+  border-radius: 12px;
+  padding: 25px 30px;
+  box-shadow: 0 0 15px #00bcd422;
+}
+
+.raffles-box h2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: #00bcd4;
+  text-shadow: 0 0 5px #00bcd4cc;
+}
+
+.raffle-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.raffle-item {
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #444;
+  box-shadow: 0 0 10px rgba(0, 188, 212, 0.2);
+}
+
+.raffle-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.raffle-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #00bcd4;
+}
+
+.raffle-status {
+  padding: 4px 10px;
+  background-color: #00bcd4;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.raffle-status.closed {
+  background-color: #d32f2f;
+}
+
+.raffle-details p {
+  margin: 5px 0;
+  font-size: 0.95rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 720px) {
+  .raffles-container {
+    padding: 15px;
+  }
+
+  .raffles-box {
+    padding: 20px;
+  }
+
+  .raffle-title {
+    font-size: 1rem;
+  }
+
+  .raffle-details p {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  background-color: #121212;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e0e0e0;
+}
+
+.attackers-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.attackers-box {
+  background-color: #1f1f1f;
+  border: 1px solid #00bcd4aa;
+  border-radius: 12px;
+  padding: 25px 30px;
+  box-shadow: 0 0 15px #00bcd422;
+}
+
+.attackers-box h2 {
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  color: #00bcd4;
+  text-shadow: 0 0 5px #00bcd4aa;
+}
+
+.attackers-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+.attackers-table th,
+.attackers-table td {
+  padding: 12px 10px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+.attackers-table th {
+  color: #999;
+  font-weight: bold;
+}
+
+.attackers-table td a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.attackers-table td a:hover {
+  text-decoration: underline;
+}
+
+.attackers-table .active {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.attackers-table .inactive {
+  color: #f44336;
+  font-weight: bold;
+}
+
+.attackers-table .online {
+  color: #8bc34a;
+}
+
+.attackers-table .offline {
+  color: #ccc;
+}
+
+/* Responsive */
+@media screen and (max-width: 720px) {
+  .attackers-container {
+    padding: 15px;
+  }
+
+  .attackers-box {
+    padding: 20px;
+    overflow-x: auto;
+  }
+
+  .attackers-table {
+    font-size: 0.95rem;
+  }
+}

@@ -1,0 +1,97 @@
+/* Base */
+body {
+  margin: 0;
+  background-color: #121212;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e0e0e0;
+}
+
+/* Header */
+.header {
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 25px;
+  border-bottom: 1px solid #00bcd4aa;
+  box-shadow: 0 6px 10px #00bcd422;
+}
+
+.header .logo {
+  height: 40px;
+  max-width: 180px;
+  object-fit: contain;
+  box-shadow: 0 0 20px #00bcd4aa;
+}
+
+/* Announcement Banner */
+.announcement {
+  background-color: #00bcd4;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Navigation Menu Scrollable */
+.menu-wrapper {
+  background-color: #1f1f1f;
+  padding: 10px 0;
+  border-bottom: 1px solid #00bcd4aa;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none; /* Firefox */
+}
+
+.menu-wrapper::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.menu {
+  display: inline-flex;
+  gap: 12px;
+  padding: 0 20px;
+}
+
+/* Menu Link Style */
+.menu a {
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+.menu a:hover {
+  background-color: #00bcd4aa;
+  color: #fff;
+}
+
+/* Content Wrapper */
+.content {
+  padding: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 720px) {
+  .announcement {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  .content {
+    padding: 15px;
+  }
+
+  .header {
+    padding: 10px;
+  }
+
+  .header .logo {
+    height: 36px;
+    max-width: 140px;
+  }
+}
