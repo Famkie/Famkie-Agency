@@ -1,0 +1,10 @@
+[15-May-2025 19:30:13 Asia/Jakarta] PHP Warning:  include(/home/famkiewe/public_html/welcome/../includes/sidebar.php): Failed to open stream: No such file or directory in /home/famkiewe/public_html/welcome/credit.php on line 31
+[15-May-2025 19:30:13 Asia/Jakarta] PHP Warning:  include(/home/famkiewe/public_html/welcome/../includes/sidebar.php): Failed to open stream: No such file or directory in /home/famkiewe/public_html/welcome/credit.php on line 31
+[15-May-2025 19:30:13 Asia/Jakarta] PHP Warning:  include(): Failed opening '/home/famkiewe/public_html/welcome/../includes/sidebar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/famkiewe/public_html/welcome/credit.php on line 31
+[15-May-2025 19:58:20 Asia/Jakarta] PHP Warning:  include(../../welcome/sidebar.php): Failed to open stream: No such file or directory in /home/famkiewe/public_html/welcome/register.php on line 30
+[15-May-2025 19:58:20 Asia/Jakarta] PHP Warning:  include(../../welcome/sidebar.php): Failed to open stream: No such file or directory in /home/famkiewe/public_html/welcome/register.php on line 30
+[15-May-2025 19:58:20 Asia/Jakarta] PHP Warning:  include(): Failed opening '../../welcome/sidebar.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/famkiewe/public_html/welcome/register.php on line 30
+[16-May-2025 08:53:24 Asia/Jakarta] PHP Warning:  Undefined variable $jumlah_klien in /home/famkiewe/public_html/welcome/lobby.php on line 94
+[16-May-2025 08:53:24 Asia/Jakarta] PHP Warning:  Undefined variable $jumlah_loss_done in /home/famkiewe/public_html/welcome/lobby.php on line 95
+[16-May-2025 08:53:25 Asia/Jakarta] PHP Warning:  Undefined variable $jumlah_klien in /home/famkiewe/public_html/welcome/lobby.php on line 94
+[16-May-2025 08:53:25 Asia/Jakarta] PHP Warning:  Undefined variable $jumlah_loss_done in /home/famkiewe/public_html/welcome/lobby.php on line 95
